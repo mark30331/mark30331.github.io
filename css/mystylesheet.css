@@ -1,0 +1,56 @@
+body {
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #B80F0A;
+    color: white;
+    padding: 8px;
+}
+
+header h1 {
+    padding-left: 95px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding: 0 15px;
+}
+
+main h2 {
+    border-bottom: 1px solid black;
+}
+
+.icon {
+    box-shadow: 0 0 17px black;
+}
+
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: white;
+}
+
+footer a:hover {
+    color: #DDDD;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+footer p.legal {
+    margin-bottom: 9px;
+    font-size: 0.9em;
+}
+
+footer p.highlight {
+    color: yellow;
+    font-size: 0.8em;
+    margin-top: 0;
+}
