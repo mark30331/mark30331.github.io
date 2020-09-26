@@ -1,22 +1,23 @@
 body {
     background-color: #EEE;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.page {
+.index-main {
     max-width: 800px;
     margin: 0 auto;
 }
 
 header, footer {
-    background-color: #B80F0A;
+    background-color: blue;
     color: white;
     padding: 8px;
+    border-radius: 15px;
 }
 
 header h1 {
     padding-left: 95px;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 main {
@@ -27,8 +28,9 @@ main h2 {
     border-bottom: 1px solid black;
 }
 
-.icon {
+.picture {
     box-shadow: 0 0 17px black;
+    float: right;
 }
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
@@ -36,7 +38,7 @@ footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, foot
 }
 
 footer a:hover {
-    color: #DDDD;
+    color: #DDD;
 }
 
 footer {
