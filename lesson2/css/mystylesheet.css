@@ -1,37 +1,67 @@
 body {
     background-color: #EEE;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .index-main {
-    max-width: 800px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;  
+
 }
 
 header, footer {
     background-color: blue;
+    text-align: center;
     color: white;
-    padding: 8px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
+    max-width: 1000px;
 }
-
-header h1 {
-    padding-left: 95px;
-    
+h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
-    padding: 0 15px;
+     display: grid;
+     grid-template-columns: auto;
+     max-width: 75%;
+     padding: 10px;
+     margin-left: auto;
+     margin-right: auto;
+    
+   
+}
+p {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-main h2 {
-    border-bottom: 1px solid black;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.picture {
-    box-shadow: 0 0 17px black;
-    float: right;
+
+section {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.74);
+    margin: 5px;
+    background-color: #EEE;
+    border: black 1px solid;
+    border-radius: 15px;
 }
+
+section h3 {
+    color: #ffffffad;
+    background-color: rgba(92, 92, 92, 0.973);
+    padding: 1em;
+    margin-top: 0;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+}
+
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
     color: white;
