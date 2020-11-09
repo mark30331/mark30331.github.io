@@ -4,60 +4,86 @@ body {
 }
 
 .index-main {
-    margin: auto;
-    max-width:  900px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+}
+.banner {
+    width: 100%;
+    font-size: 1.2em;
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
 }
 main {
-    max-width: 900px;
-    margin: auto;
+    padding: 0 10px;
 }
-
+header {
+    max-width: 100%;
+}
 
 header,
 footer {
-    background-color: blue;   
+    background-color: blue;
     color: white;
-    padding: 1.5em;
-    margin: auto;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
+}
+h1,
+h2,
+h4 {
+    text-align: center;
+}
+h3 {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+footer {
+    height: 100px;
     max-width: 900px;
+    padding-bottom: 2em;
 }
 .weatherpic{    
     float: left;
 }
 .first-pic{
     width: 100%;
-    height: auto;
-   
+    height: 350px;  
 }
 #top-left {
-    position: absolute;
-    
-    top: 1;
-    
-    background: rgba(0, 0, 0, 0.322);
-    
-    color: #f1f1f1;
-    
+    position: absolute;    
+    top: 1;    
+    background: rgba(0, 0, 0, 0.322);    
+    color: #f1f1f1;    
     margin: 25px 25px;
-    padding: 20px;
-    
+    padding: 20px;    
     max-width: 100%;
     text-align: left;
 }
 
 
-
-.box {
-text-align: center;
-max-width: 900px;
-margin: 1em;
-background-color: #d3d3d3;
-font-style:normal;
-border: black solid 0.2px;
-}
 .box-article img{
-    float: right;
+    width: 100%;
+}
+.grid-item {   
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0 0px;    
+    text-align: center;       
+    background-color: #d3d3d3;
 }
 .box-article{
 text-align:left;
@@ -69,20 +95,17 @@ border: black solid 0.2px;
 padding: 10px;
 
 }
-.weather-table{        
-    border-spacing:25px ;    
-    border-collapse: separate;
-    margin: auto;
-}
 
-th,
-td
- {
+.weather-table{   
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;     
+    column-gap: 1px;
     padding: 10px;
-    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
-
-
 .social img {
     height: 36px;
     width: 36px;
@@ -148,17 +171,7 @@ nav ul li {
 nav ul li:hover {
     background-color: black;
 }
-h2{
-    text-align: center;
-}
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Montserrat', sans-serif;
-    
-}
 .contact{
     float: right;
 }
@@ -192,7 +205,6 @@ footer p.highlight {
     margin-top: 0;
 }
 
-
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
     .navigation {
@@ -211,10 +223,20 @@ footer p.highlight {
     .navigation li:first-child {
         display: none;
     }
-       
+     img {
+         height: 80px;
+     }   
+     .box-article-image{
+          max-width: 25%;
+          float: right;
+          width: 150px;
+          height: 100px;
+          border-radius: 5px;
+     }
+    
+     
+    
 }
-
-
 @media only screen and (min-width: 960px) {
     nav ul {
         align-items: flex-start;
@@ -222,7 +244,13 @@ footer p.highlight {
         background: none;
     }
     main{
-        max-width: 900px;
-        margin: auto;
+        max-width: 950px;
+        margin-left: auto;
+        margin-right: auto;
     }
+     .navigation {
+         margin: 0 auto;
+     }   
+     
+
 }
