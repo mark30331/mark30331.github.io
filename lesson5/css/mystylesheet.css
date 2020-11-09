@@ -9,6 +9,7 @@ body {
     max-width: 100%;
 
 }
+
 .banner {
     width: 100%;
     font-size: 1.2em;
@@ -20,9 +21,11 @@ body {
     text-align: center;
     display: none;
 }
+
 main {
     padding: 0 10px;
 }
+
 header {
     max-width: 100%;
 }
@@ -36,11 +39,13 @@ footer {
     margin-right: auto;
     border-radius: 15px;
 }
+
 h1,
 h2,
 h4 {
     text-align: center;
 }
+
 h3 {
     text-align: left;
 }
@@ -52,53 +57,59 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 
 }
+
 footer {
-    height: 100px;
+    height: 270px;
     max-width: 900px;
     padding-bottom: 2em;
 }
-.weatherpic{    
+
+.weatherpic {
     float: left;
 }
-.first-pic{
+
+.first-pic {
     width: 100%;
-    height: 350px;  
+    height: 350px;
 }
+
 #top-left {
-    position: absolute;    
-    top: 1;    
-    background: rgba(0, 0, 0, 0.322);    
-    color: #f1f1f1;    
+    position: absolute;
+    top: 1;
+    background: rgba(0, 0, 0, 0.322);
+    color: #f1f1f1;
     margin: 25px 25px;
-    padding: 20px;    
+    padding: 20px;
     max-width: 100%;
     text-align: left;
 }
 
 
-.box-article img{
+.box-article img {
     width: 100%;
 }
-.grid-item {   
+
+.grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 0 0px;    
-    text-align: center;       
+    padding: 0 0px;
+    text-align: center;
     background-color: #d3d3d3;
 }
-.box-article{
-text-align:left;
-max-width: 900px;
-margin: 1em;
-background-color: #d3d3d3;
-font-style:normal;
-border: black solid 0.2px;
-padding: 10px;
+
+.box-article {
+    text-align: left;
+    max-width: 900px;
+    margin: 1em;
+    background-color: #d3d3d3;
+    font-style: normal;
+    border: black solid 0.2px;
+    padding: 10px;
 
 }
 
-.weather-table{   
+.weather-table {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;     
+    grid-template-columns: auto auto auto auto auto;
     column-gap: 1px;
     padding: 10px;
     margin-left: auto;
@@ -106,10 +117,12 @@ padding: 10px;
 
 
 }
+
 .social img {
     height: 36px;
     width: 36px;
 }
+
 .navigation {
     list-style: none;
     padding: 0;
@@ -140,6 +153,7 @@ padding: 10px;
 .responsive li {
     display: block;
 }
+
 nav {
     background: #0a16b8;
     padding: 0px;
@@ -160,7 +174,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
-    
+
 nav ul li {
     list-style-type: none;
     display: block;
@@ -172,9 +186,7 @@ nav ul li:hover {
     background-color: black;
 }
 
-.contact{
-    float: right;
-}
+
 
 footer a,
 footer a:link,
@@ -203,7 +215,26 @@ footer p.highlight {
     color: yellow;
     font-size: 0.8em;
     margin-top: 0;
+    
 }
+ .footer-container {
+     display: grid;
+     grid-template-columns: auto auto;
+
+ }
+
+ .footer-item {
+     border: 1px dashed black;
+     text-align: center;
+     margin-top: 0%;
+ }
+
+ .footer-item img {
+     height: 100%;
+
+
+ }
+
 
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
@@ -212,7 +243,7 @@ footer p.highlight {
     }
 
     .navigation li {
-        display: block;       
+        display: block;
         flex: 1 1 auto;
     }
 
@@ -223,34 +254,55 @@ footer p.highlight {
     .navigation li:first-child {
         display: none;
     }
-     img {
-         height: 80px;
-     }   
-     .box-article-image{
-          max-width: 25%;
-          float: right;
-          width: 150px;
-          height: 100px;
-          border-radius: 5px;
-     }
-    
-     
-    
+
+    img {
+        height: 80px;
+    }
+
+    .box-article-image {
+        max-width: 25%;
+        float: right;
+        width: 150px;
+        height: 100px;
+        border-radius: 5px;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    .footer-item{
+        border: 1px dashed black;
+        text-align: center;
+        margin-top: 0%;
+    }
+    .footer-item img{
+        height: 100%;
+        
+        
+    }
+
+
+
 }
+
 @media only screen and (min-width: 960px) {
     nav ul {
         align-items: flex-start;
         flex-wrap: nowrap;
         background: none;
     }
-    main{
+
+    main {
         max-width: 950px;
         margin-left: auto;
         margin-right: auto;
     }
-     .navigation {
-         margin: 0 auto;
-     }   
-     
+
+    .navigation {
+        margin: 0 auto;
+    }
+
+    
 
 }
