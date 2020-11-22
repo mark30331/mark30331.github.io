@@ -8,100 +8,119 @@
     <title>Site Plan| Weather Project - Mark Kportufe</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/mystylesheet.css">    
+    <link rel="stylesheet" href="css/mystylesheet.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="scripts/preston-4.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/page.js"></script>
 </head>
 
-<body class="index-main">  
-     <header>
-         <img class="weatherpic"    src="images/weatherlogo.png" alt="The weather logo" >      
-         <h1>Current Weather</h1>
-         <h4>The forecast you can trust!!</h4>
-         <nav class="navigation">
-             <ul class="navigation">
-                 <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href = "#">Home</a></li>
-                <li><a href = "#">Preston</a></li>
-                <li><a href = "#">Soda Springs</a></li>
-                <li><a href = "#">Fish Haven</a></li>
-                <li><a href = "#">Storm Center</a></li>
-                <li><a href = "#">Gallery</a></li>
-             </ul>
-         </nav>
-     </header>
-     <main>
-         <h2>Preston, Idaho</h2>
-            <div class = "first-box">                 
-                <div id="top-left">
-                    <p> Current Weather Summary</p>
-                    <p> Currently: Sunny<br> High: 76º<br> Wind Chill: ºF<br> Humidity: 69% <br> Windspeed: 5mph</p>                        
-                </div>
-                <img  class= "first-pic" src="images/fine weather.jpeg" alt="fine weahter picture">
-                
+<body class="index-main">
+    <div id="topBanner" class="banner">
+        <p>
+            Presten Pancake in the Park! 9:00am Saturday at the city park pavilion.
+        </p>
+    </div>
+    <header>
+        <img class="weatherpic" src="images/weatherlogo.png" alt="The weather logo">
+        <h1>Current Weather</h1>
+        <h4>The forecast you can trust!!</h4>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="first-box">
+            <div id="top-left">
+                <p> Current Weather Summary</p>
+                <p> Currently: Sunny<br> High: 76º<br> Wind Chill: ºF<br> Humidity: 69% <br> Windspeed: 5mph</p>
             </div>
-            
-            <div class = "box">
-                <h2>5(five) Day Weather Forcast</h2>
-                <table class="weather-table">                   
-                    <tr>
-                        <th>Mon</th>
-                        <th>Tue</th>
-                        <th>Wed</th>
-                        <th>Thurs</th>
-                        <th>Fri</th>
-                    </tr>
-                    <tr>
-                        <td>70&#8457;</td>
-                        <td>67&#8457;</td>
-                        <td>60&#8457;</td>
-                        <td>79&#8457;</td>
-                        <td>50&#8457;</td>
-                    </tr>
+            <!--
+            <img class="first-pic" src="images/fine weather.jpeg" alt="fine weahter picture">
+            -->
+            <div class="hero-container">
+                <picture>                    
+                    <source media="(max-width: 500px)" srcset="  images/wdd230_small.jpg">
+                    <source media="(max-width: 800px)" srcset="  images/wdd230_medium.jpg">
+                    <source media="(max-width: 801px)" srcset="  images/wdd230_large.jpg">
+                    <img src="images/wdd230_original1.jpeg" alt="wdd230_original1">
                     
-                </table>
+                </picture>
             </div>
-            <div class = "box-article">
-                <h2>Article</h2>
-                <p>
-                    <img src="images/weatherpicture.jpeg" alt="weather pic">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel deleniti consequuntur
-                     ipsam quos accusamus, tempora illum iure amet ipsum quas exercitationem doloremque veniam nemo, 
-                     voluptate, accusantium rem. Ex, nobis fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                     Deleniti libero aliquam iste veniam voluptatem voluptates nihil consequuntur exercitationem et cum sit,
-                    impedit voluptatum nulla laboriosam velit quo aut officiis sed! Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. A exercitationem beatae labore aliquam, sunt animi temporibus 
-                    voluptatibus debitis, itaque hic numquam molestias rerum et, distinctio illo odit natus pariatur omnis?
-                </p>
+        </div>
+
+        <h2>5(five) Day Weather Forcast</h2>
+
+        <div class="weather-table">
+            <div class="grid-item">
+                <p> Mon</p>
+                <p class='fas fa-cloud-sun' style='font-size:24px'>70&#8457; </p>
             </div>
-            
-     </main>    
-            
+            <div class="grid-item">
+                <p>Tue</p>
+                <p class='fas fa-cloud-showers-heavy' style='font-size:24px'>67&#8457;</p>
+            </div>
+            <div class="grid-item">
+                <p>Wed</p>
+                <p class='fas fa-cloud-meatball' style='font-size:24px'>60&#8457;</p>
+            </div>
+            <div class="grid-item">
+                <p>Thu</p>
+                <p class='fas fa-cloud-sun-rain' style='font-size:24px'>79&#8457;</p>
+            </div>
+            <div class="grid-item">
+                <p>Fri</p>
+                <p class='fas fa-sun' style='font-size:24px'>50&#8457;</p>
+            </div>
+        </div>
+
+
+        <div class="box-article">
+
+            <img class="box-article-image" src="images/weatherpicture.jpeg" alt="weather pic">
+            <h3>Article</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel deleniti consequuntur
+                ipsam quos accusamus, tempora illum iure amet ipsum quas exercitationem doloremque veniam nemo,
+                voluptate, accusantium rem. Ex, nobis fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti libero aliquam iste veniam voluptatem voluptates nihil consequuntur exercitationem et cum sit,
+                impedit voluptatum nulla laboriosam velit quo aut officiis sed! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. A exercitationem beatae labore aliquam, sunt animi temporibus
+                voluptatibus debitis, itaque hic numquam molestias rerum et, distinctio illo odit natus pariatur omnis?
+            </p>
+        </div>
+
+    </main>
+
     <footer>
-        
-        <section>
-            <img style ="float: left;"src="images/map.jpg" alt="location map picture">
-        </section>       
-        <section >
-        <ul class="contact">
-            <h3>Contact Us</h3> 
-            <li  href='#'>&#9993; xxx@gmail.com</li>
-            <li  href='#'>&#9742; 000.000.0000</li>
-            <li><Address>Address :  235 west 4 south </Address></li>
-        </ul>
-        </section>
-        <section class="social" >
-            <a href='https://instagram.com'> <img src='images/instagram.png'></a>
-            <a href='https://facebook.com'> <img src='images/facebook.png'></a>
-            <a href='https://twitter.com'> <img src='images/twitter.png'></a>
-        </section>
-        
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="images/map1.jpg" alt="location map picture">
+            </div>
+            <div class="footer-item">
+                <ul class="contact">
+                    <h4>Contact Information</h4>
+                    <p href='#'>&#9993; xxx@gmail.com</p>
+                    <p href='#'>&#9742; 000.000.0000</p>
+                </ul>
+            </div>
+        </div>
+
         <p class="legal">&copy; <span id="copyrightyear"></span> | Mark Kportufe | Rexburg, Idaho | <a
                 href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-        <p  class="highlight">Last Updated: <span id="lastupdated"></span></p>
+        <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
     </footer>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
 </body>
 
 </html>
