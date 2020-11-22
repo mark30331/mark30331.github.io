@@ -1,0 +1,26 @@
+body {
+    max-width: 100%;
+    margin:  0 auto;
+    padding: 20px;
+}
+picture img {
+    filter: blur(0em);
+    transition: filter .5s;
+}
+img{
+    display: block;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    height: 300px;
+    width: 400px;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+h1{
+    text-align: center;
+}
