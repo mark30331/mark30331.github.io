@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My first Assingment for WDD 230">
+    <title>Site Plan| Weather Project - Mark Kportufe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mystylesheet1.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/page.js"></script>
+</head>
+
+<body class="index-main">
+    <header>
+        <img class="weatherpic" src="images/weatherlogo.png" alt="The weather logo">
+        <h1>Current Weather</h1>
+        <h4>The forecast you can trust!!</h4>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>The Storm Center</h2>
+        <h3>Report a Storm Form</h3>
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="upper">Full Name* <input type="text" name="fname" required></label>
+                <label class="upper">Phone* <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label class="upper">Email <input type="email" name="email" placeholder="user@gmail.com"></label>
+                <label class="upper">Zip Code* <input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="upper">Storm Date <input type="date" name="stormDate"></label>
+                <label class="upper">
+                    Storm Type
+                    <input type="text" list="stormType" name="stormType">
+                    <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+                <label class="upper">Storm Severity</label>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                <label class="upper">
+                    Storm Region
+                    <select name="stormRegion">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodaSpring">Soda Springs</option>
+                        <option value="fishHaven">Fish Haven</option>
+                    </select>
+                </label>
+                <div>User in-danger Level</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+            </fieldset>
+            <fieldset>
+                <legend >Addition Information or Comments</legend>
+                <textarea id="special" name="comments" rows="10" cols="45"></textarea>
+            </fieldset>
+            <input class="submitbutton" type="submit" value="Report Storm">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="images/map1.jpg" alt="location map picture">
+            </div>
+            <div class="footer-item">
+                <ul class="contact">
+                    <h4>Contact Information</h4>
+                    <p href='#'>&#9993; xxx@gmail.com</p>
+                    <p href='#'>&#9742; 000.000.0000</p>
+                </ul>
+            </div>
+        </div>
+
+        <p class="legal">&copy; <span id="copyrightyear"></span> | Mark Kportufe | Rexburg, Idaho | <a
+                href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+
+</html>
