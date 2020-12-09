@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/mystylesheet.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/page.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/page.js"></script>
 </head>
 
 <body class="index-main">
@@ -40,19 +40,53 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="first-box">
+            
             <div id="top-left">
                 <p> Current Weather Summary</p>
-                <p> Currently: Sunny<br> High: 76º<br> Wind Chill: ºF<br> Humidity: 69% <br> Windspeed: 5mph</p>
+                <p>
+                 Currently:
+                 <span id="current-weather">Sunny</span><br>
+                </p>
+                <p>
+                    Temperature:
+                    <span id="currentTemp">50</span>&#8457;<br>
+                </p>
+                <!--
+                <p>
+                     High:
+                     <span id="highTemp"></span>&#8457;<br>
+                </p>
+                
+                <p>
+                     Low:
+                     <span id="lowTemp"></span>&#8457;<br>
+                </p>
+                -->
+                <p>
+                    Wind Chill:
+                    <span id="windChill"></span><br>
+                </p>
+                <p>
+                    Humidity:
+                    <span id="humidity"></span>%<br>
+                </p>
+                <p>
+                    Wind Speed:
+                    <span id="windSpeed">4</span> mph<br>
+                </p>            
+                            
             </div>
-            <!--
+           
+            
+             <!--
             <img class="first-pic" src="images/fine weather.jpeg" alt="fine weahter picture">
             -->
             <div class="hero-container">
-                <picture>                    
-                    <source media="(max-width: 500px)" srcset="  images/wdd230_small.jpg">                    
+                <picture>
+                    <source media="(max-width: 500px)" srcset="  images/wdd230_small.jpg">
                     <source media="(max-width: 801px)" srcset="  images/wdd230_large.jpg">
                     <img src="images/wdd230_original1.jpeg" alt="wdd230_original1">
-                    
+
                 </picture>
             </div>
         </div>
@@ -61,24 +95,30 @@
 
         <div class="weather-table">
             <div class="grid-item">
-                <p> Mon</p>
-                <p class='fas fa-cloud-sun' style='font-size:24px'>70&#8457; </p>
+                <p id="tag1"> Mon</p>
+                <img id="img1" />
+                <br><span id="weather1">70</span> &#8457;                
+                
             </div>
             <div class="grid-item">
-                <p>Tue</p>
-                <p class='fas fa-cloud-showers-heavy' style='font-size:24px'>67&#8457;</p>
+                <p id="tag2">Tue</p>
+                <img id="img2" />
+                <br><span id="weather2">67</span> &#8457;
             </div>
             <div class="grid-item">
-                <p>Wed</p>
-                <p class='fas fa-cloud-meatball' style='font-size:24px'>60&#8457;</p>
+                <p id="tag3">Wed</p>
+                <img id="img3"/>
+                <br><span id="weather3">60</span> &#8457;
             </div>
             <div class="grid-item">
-                <p>Thu</p>
-                <p class='fas fa-cloud-sun-rain' style='font-size:24px'>79&#8457;</p>
+                <p id="tag4">Thu</p>
+                <img id="img4" />
+                <br><span id="weather4">79</span> &#8457;
             </div>
             <div class="grid-item">
-                <p>Fri</p>
-                <p class='fas fa-sun' style='font-size:24px'>50&#8457;</p>
+                <p id="tag5">Fri</p>
+                <img id="img5" />
+                <br><span id="weather5">50</span> &#8457;
             </div>
         </div>
 
