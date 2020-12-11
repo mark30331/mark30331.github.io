@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My first Assingment for WDD 230">
+    <title>Site Plan| Weather Project - Mark Kportufe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/soda-springs.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/windchill.js"></script>
+    <script src="js/soda-springs.js"></script>
+</head>
+
+<body class="index-main">
+    <div id="topBanner" class="banner">
+        <p>
+            Presten Pancake in the Park! 9:00am Saturday at the city park pavilion.
+        </p>
+    </div>
+    <header>
+        <img class="weatherpic" src="images/weatherlogo.png" alt="The weather logo">
+        <h1>Current Weather</h1>
+        <h4>The forecast you can trust!!</h4>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="https://mark30331.github.io/lesson11/weather-site.html">Home</a></li>
+                <li><a href="https://mark30331.github.io/lesson10/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://mark30331.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="https://mark30331.github.io/lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Soda Springs, Idaho</h2>
+        <div class="first-box">
+
+            <div id="top-left">
+                <p> Current Weather Summary</p>
+                <p>
+                    Currently:
+                    <span id="current-weather">Sunny</span><br>
+                </p>
+                <p>
+                    Temperature:
+                    <span id="currentTemp">50</span>&#8457;<br>
+                </p>
+                <!--
+                <p>
+                     High:
+                     <span id="highTemp"></span>&#8457;<br>
+                </p>
+                
+                <p>
+                     Low:
+                     <span id="lowTemp"></span>&#8457;<br>
+                </p>
+                -->
+                <p>
+                    Wind Chill:
+                    <span id="windChill"></span><br>
+                </p>
+                <p>
+                    Humidity:
+                    <span id="humidity"></span>%<br>
+                </p>
+                <p>
+                    Wind Speed:
+                    <span id="windSpeed">4</span> mph<br>
+                </p>
+
+            </div>
+
+
+            <!--
+            <img class="first-pic" src="images/fine weather.jpeg" alt="fine weahter picture">
+            -->
+            <div class="hero-container">
+                <picture>
+                    <source media="(max-width: 500px)" srcset="  images/wdd230_small.jpg">
+                    <source media="(max-width: 801px)" srcset="  images/wdd230_large.jpg">
+                    <img src="images/wdd230_original1.jpeg" alt="wdd230_original1">
+
+                </picture>
+            </div>
+        </div>
+
+        <h2>5(five) Day Weather Forcast</h2>
+
+        <div class="weather-table">
+            <div class="grid-item">
+                <p id="tag1"> Mon</p>
+                <img id="img1" />
+                <br><span id="weather1">70</span> &#8457;
+
+            </div>
+            <div class="grid-item">
+                <p id="tag2">Tue</p>
+                <img id="img2" />
+                <br><span id="weather2">67</span> &#8457;
+            </div>
+            <div class="grid-item">
+                <p id="tag3">Wed</p>
+                <img id="img3" />
+                <br><span id="weather3">60</span> &#8457;
+            </div>
+            <div class="grid-item">
+                <p id="tag4">Thu</p>
+                <img id="img4" />
+                <br><span id="weather4">79</span> &#8457;
+            </div>
+            <div class="grid-item">
+                <p id="tag5">Fri</p>
+                <img id="img5" />
+                <br><span id="weather5">50</span> &#8457;
+            </div>
+        </div>
+
+
+        <div class="box-article">
+
+            <img class="box-article-image" src="images/weatherpicture.jpeg" alt="weather pic">
+            <h3>Article</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel deleniti consequuntur
+                ipsam quos accusamus, tempora illum iure amet ipsum quas exercitationem doloremque veniam nemo,
+                voluptate, accusantium rem. Ex, nobis fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti libero aliquam iste veniam voluptatem voluptates nihil consequuntur exercitationem et cum sit,
+                impedit voluptatum nulla laboriosam velit quo aut officiis sed! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. A exercitationem beatae labore aliquam, sunt animi temporibus
+                voluptatibus debitis, itaque hic numquam molestias rerum et, distinctio illo odit natus pariatur omnis?
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="images/map1.jpg" alt="location map picture">
+            </div>
+            <div class="footer-item">
+                <ul class="contact">
+                    <h4>Contact Information</h4>
+                    <p href='#'>&#9993; xxx@gmail.com</p>
+                    <p href='#'>&#9742; 000.000.0000</p>
+                </ul>
+            </div>
+        </div>
+
+        <p class="legal">&copy; <span id="copyrightyear"></span> | Mark Kportufe | Rexburg, Idaho | <a
+                href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+
+</html>
