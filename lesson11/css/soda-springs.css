@@ -93,6 +93,7 @@ footer {
 
 .box-article img {
     width: 100%;
+    height: 200px;
 }
 
 .grid-item {
@@ -120,6 +121,22 @@ footer {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.event {    
+    border: black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+      
+}
+.event h3{
+    text-align: center;
+    
+}
+.event p{
+    text-align: center;
 }
 
 .social img {
