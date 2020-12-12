@@ -88,13 +88,13 @@ window.addEventListener('load', (event)=>{
 
                 // Set the link for the cards.
                 if (towns[i].name == 'Fish Haven'){
-                    link.setAttribute('href', '#');
+                    link.setAttribute('href', 'https://mark30331.github.io/lesson11/fish-haven.html');
                 }
                 else if (towns[i].name == 'Preston'){
-                    link.setAttribute('href', '#');
+                    link.setAttribute('href', 'https://mark30331.github.io/lesson10/preston-10.html');
                 }
                 else if (towns[i].name == 'Soda Springs'){
-                    link.setAttribute('href', '#');
+                    link.setAttribute('href', 'https://mark30331.github.io/lesson11/soda-springs.html');
                 }
                 else {
                     link.setAttribute('#');

@@ -1,7 +1,35 @@
 window.addEventListener('load', (event)=>{
     // The urls for the weather api.
-    const apiurl = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=f35b728b9784b1eaf04baa7a3e381718&units=imperial";
-    const api5url = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f35b728b9784b1eaf04baa7a3e381718";
+    const apiurl = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=9ee0b980ffe7ebe51ff7f8eefee156d6&units=imperial";
+    const api5url = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=9ee0b980ffe7ebe51ff7f8eefee156d6";
+    const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+    // Get the event data for the page.
+    fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        // Pass the town list from the JSON object.
+        const towns = jsonObject.towns;
+
+        // Loop through the list until it finds the Soda Springs data.
+        for (i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Preston") {
+                // Loop through the event list adding each event to the page
+                for (j = 0; j < towns[i].events.length; j++) {
+                    // Create an element to hold the event text.
+                    let event = document.createElement("p");
+
+                    // Add the text to event.
+                    event.textContent = towns[i].events[j];
+
+                    // Add the event to the page.
+                    document.getElementById("main-events").appendChild(event);
+                };
+            };
+        };
+    });
 
     // Get the data for current weather in the form of a JSON file
     fetch(apiurl)

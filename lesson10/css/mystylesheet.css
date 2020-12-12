@@ -93,6 +93,7 @@ footer {
 
 .box-article img {
     width: 100%;
+    height: 200px;
 }
 
 .grid-item {
@@ -110,7 +111,6 @@ footer {
     font-style: normal;
     border: black solid 0.2px;
     padding: 10px;
-
 }
 
 .weather-table {
@@ -121,6 +121,26 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.event {
+    border: black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.event h3 {
+    text-align: center;
+
+}
+
+.event p {
+    text-align: center;
+}
+
 
 .social img {
     height: 36px;
