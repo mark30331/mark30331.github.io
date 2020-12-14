@@ -20,7 +20,7 @@
             <a href="home.html"><img src="images/mobile view.png" alt=""></a>
             <a href="home.html">Home</a>
             <a href="temples.html">Temples</a>
-            <a href="services.html">Services</a>
+            <a href="services.html">Services & Reservations</a>
             <a href="contact.html">Contact Us</a>
             <a href="about-us.html">About Us</a>
             <a href="#" class="icon" onclick="myFunction()">
@@ -33,11 +33,133 @@
             <h2>A Perfect Place For Vacation</h2>
         </div>
     </header>
+    <main class=" row">
+        <div class="side">
+            <h2>Services Our Company Offers</h2>
+            <ul>
+                <li>Free BreakFast</li>
+                <p></p>
+                <li>Free Parking</li>
+                <p></p>
+                <li>High Speed WIFI</li>
+                <p></p>
+                <li>Gym & Swimming pool</li>
 
+            </ul>
+            <img height="240px"
+                src="images/hotel_services.jpg"
+                alt="Hotel services picture">
+        </div>
+        <section class="main">
+            <form class="contact-form" action="thanks.html">
+                <h3>Reservation form</h3>
+                <ul >
+                    <li>
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" minlength="2" maxlength="50" size="20" required
+                            pattern="[A-Z][A-Za-z' -]+">
+                    </li>
+                    <li>
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="tel" required minlength="10">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="xxxxxx@email.com">
+                    </li>
+                    <li>
+                        <label for="area">Area:</label>
+                        <select id="area">
+                            <option selected disabled>Select Area...</option>
+                            <option value="saltlake">Salt Lake Temple</option>
+                            <option value="Accra">Accra Ghana Temple</option>
+                            <option value="provo">Provo Temple</option>
+                            <option value="Hawaii">Hawaii Temple</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6"
+                            placeholder="Special Accommodations"></textarea>
+                    </li>
+                    <li>
+                        <p>Dates of Interest (Range)</p>
+                    <li>
+                        <label for="startDate">From*</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                    </li>
+                    <li>
+                        <label for="endDate">To*</label>
+                        <input type="date" id="endDate" name="endDate" max="2020-12-31" required>
+                    </li>
+                    <li>
+                        <p>Rooms & Suite</p>
+                        <ul class="form-skin">
+                            <li>
+                                <label for="room">Single Room(s)</label>
+                                <input type="radio" id="room" name="choice" value="room" checked>
+                            </li>
+                            <li>
+                                <label for="suite">Double Rooms</label>
+                                <input type="radio" id="suite" name="choice" value="suite">
+                            </li>
+                            <li>
+                                <label for="suite">Mini suite Rooms</label>
+                                <input type="radio" id="suite" name="choice" value="suite">
+                            </li>
+                        </ul>
+                    </li>
 
-    <main class=" index-main">
+                    <li>
+                        <p>Number of expected guests </p>
+                        <ul >
+                            <li>
+                                <label for="option1">1 - 2</label>
+                                <input type="radio" id="option1" name="guests" value="1 - 2" checked>
+                            </li>
+                            <li>
+                                <label for="option2">3 - 6</label>
+                                <input type="radio" id="option2" name="guests" value="3 - 6">
+                            </li>
+                            <li>
+                                <label for="option3">7 - 12</label>
+                                <input type="radio" id="option3" name="guests" value="7 - 12">
+                            </li>
+                            <li>
+                                <label for="option4">12+</label>
+                                <input type="radio" id="option4" name="guests" value="12+">
+                            </li>
+                        </ul>
+                    </li>
 
-
+                    <li>
+                        <p>Preferred Form Of contact? (Please check all that apply)</p>
+                        <ul >
+                            <li>
+                                <input type="checkbox" id="email-pref">
+                                <label for="email-pref">Email</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="phone-pref">
+                                <label for="phone-pref">Phone</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="text-pref">
+                                <label for="text-pref">Text</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="other-pref">
+                                <label for="other-pref">Other (Please specify in comment section)</label>
+                            </li>
+                        </ul>
+                    </li>                   
+                    <p>
+                    <button type="submit">Submit</button>
+                    </p>                    
+                </ul>
+            </form>
+        </section>
+        
 
     </main>
 
