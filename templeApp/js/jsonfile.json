@@ -22,7 +22,7 @@
             "zip": " ",
             "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
             
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
+            "images": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
         },
         {  
             
@@ -34,7 +34,7 @@
             "zip": "  83709",
             "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
             
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/3-Boise-Idaho-Temple-1198985.jpg"
+            "images": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/3-Boise-Idaho-Temple-1198985.jpg"
         },
         {   
             
@@ -46,7 +46,7 @@
             "zip": " 96762",
             "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
             
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-temple-772761-wallpaper.jpg"
+            "images": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-temple-772761-wallpaper.jpg"
         },
         {
            
@@ -58,7 +58,7 @@
             "zip": " 83402",
             "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
             
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/400x250/1-Idaho-Falls-Temple-2097425.jpg"
+            "images": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/400x250/1-Idaho-Falls-Temple-2097425.jpg"
         }
     ]
 
