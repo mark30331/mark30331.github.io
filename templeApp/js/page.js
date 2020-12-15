@@ -35,11 +35,12 @@ window.addEventListener('load', (event)=>{
                 rainFall.textContent = 'Services: ' + temples[i].services;
                 
                 // Add the photo content.
-                images.setAttribute('src', 'images/' + temples[i].photo);
+                
+                images.setAttribute('src', temples[i].images);
                 images.setAttribute('alt', temples[i].name);
+                
 
-                // Add needed attribut to the div.
-                cardText.setAttribute('class', 'data');
+                
 
                 // Append the elements to the cardText.
                 cardText.appendChild(townName);
