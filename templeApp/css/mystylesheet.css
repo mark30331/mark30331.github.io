@@ -3,7 +3,55 @@ body {
     background-color: #EEE;
     font-family: 'Montserrat', sans-serif;
 }
+.temples {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    color: #150b71;
+    text-align: center;
+}
 
+.temples h3 {
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
+
+.temples img {
+    max-width: 90%;
+}
+
+.temples a {
+    background-color: #d2cdff;
+}
+
+.temples a:link {
+    text-decoration: none;
+}
+
+.temples a:visited {
+    text-decoration: none;
+}
+
+.temples section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 90%;
+    align-items: center;
+}
+
+.temples a:nth-child(odd) img {
+    grid-column: 1;
+}
+
+.temples a:nth-child(odd) .data {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.temples section div {
+    padding: 20px;
+}
 
 .topnav img{
     float: left;
@@ -230,4 +278,39 @@ footer{
         display: block;
         text-align: left;
     }
+}
+@media only screen and (min-width: 32.5em) {
+    .temples img {
+        height: auto;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 960px) {
+    
+
+    .temples {
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #aca4f8;
+        padding: 10px;
+    }
+
+    .temples section {
+        display: block;
+    }
+
+    .temples a {
+        background-color: #d2cdff;
+    }
+
+    .temples section img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .temples .data {
+        margin-top: -40px;
+    }
+
 }

@@ -1,3 +1,89 @@
+window.addEventListener('load', (event)=>{
+    // The url of the API that we are using.
+    const requestURL = 'https://mark30331.github.io/templeApp/js/jsonfile.json';
+
+    // Fetch the JSON file.
+    fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        // When done, save the data to the temples variable.
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const temples = jsonObject['temples'];
+
+        // Loop through the list of temples.
+        for (i = 0; i < temples.length; i++) {
+            // Only Use the Fish Haven, Preston, and Soda Springs.
+            if (temples[i].name == 'Provo Temple' || temples[i].name == 'Provo Temple' || temples[i].name == 'Provo Temple') {
+                // Create all the needed elements for the cards.
+                let link = document.createElement('a');
+                let card = document.createElement('section');
+                let cardText = document.createElement('div');
+                let townName = document.createElement('h3');
+                let motto = document.createElement('h4');
+                let yearFounded = document.createElement('p');
+                let population = document.createElement('p');
+                let rainFall = document.createElement('p');
+                let images = document.createElement('img');
+
+                // Add the text to the content.
+                townName.textContent = temples[i].name;
+                motto.textContent = temples[i].motto;
+                yearFounded.textContent = 'Description: ' + temples[i].description;
+                population.textContent = 'StreetAddress: ' + temples[i].streetAddress;
+                rainFall.textContent = 'Services: ' + temples[i].services;
+                
+                // Add the photo content.
+                images.setAttribute('src', 'images/' + temples[i].photo);
+                images.setAttribute('alt', temples[i].name);
+
+                // Add needed attribut to the div.
+                cardText.setAttribute('class', 'data');
+
+                // Append the elements to the cardText.
+                cardText.appendChild(townName);
+                cardText.appendChild(motto);
+                cardText.appendChild(yearFounded);
+                cardText.appendChild(population);
+                cardText.appendChild(rainFall);
+
+                // Append the text and the image to the cards.
+                card.appendChild(cardText);
+                card.appendChild(images);
+
+                // Set the link for the cards.
+                if (temples[i].name == 'Provo Temple'){
+                    link.setAttribute('href', '#');
+                }
+                else if (temples[i].name == 'Provo Temple'){
+                    link.setAttribute('href', '#');
+                }
+                else if (temples[i].name == 'Provo Temple'){
+                    link.setAttribute('href', '#');
+                }
+                else {
+                    link.setAttribute('#');
+                }
+
+                // Append Child to link.
+                link.appendChild(card);
+
+                // Add the element to the page as a section.
+                document.querySelector('div.temples').appendChild(link);
+            }
+        }
+    });
+})
+
+
+
+
+
+
+
+
+
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -37,3 +123,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
