@@ -15,7 +15,7 @@ window.addEventListener('load', (event)=>{
         // Loop through the list of temples.
         for (i = 0; i < temples.length; i++) {
             // Only Use the Fish Haven, Preston, and Soda Springs.
-            if (temples[i].name == 'Provo Temple' || temples[i].name == 'Provo Temple' || temples[i].name == 'Provo Temple') {
+            if (temples[i].name == 'Provo Temple' || temples[i].name == 'Salt Lake Temple'|| temples[i].name == 'Boise Temple'|| temples[i].name == 'Laie Temple' || temples[i].name == 'Idaho Falls Temple') {
                 // Create all the needed elements for the cards.
                 let link = document.createElement('a');
                 let card = document.createElement('section');
