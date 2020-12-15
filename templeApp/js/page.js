@@ -57,10 +57,16 @@ window.addEventListener('load', (event)=>{
                 if (temples[i].name == 'Provo Temple'){
                     link.setAttribute('href', '#');
                 }
-                else if (temples[i].name == 'Provo Temple'){
+                else if (temples[i].name == 'Salt Lake Temple'){
                     link.setAttribute('href', '#');
                 }
-                else if (temples[i].name == 'Provo Temple'){
+                else if (temples[i].name == 'Boise Temple'){
+                    link.setAttribute('href', '#');
+                }
+                else if (temples[i].name == 'Laie Temple'){
+                    link.setAttribute('href', '#');
+                }
+                else if (temples[i].name == 'Idaho Falls Temple'){
                     link.setAttribute('href', '#');
                 }
                 else {
