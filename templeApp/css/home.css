@@ -101,7 +101,8 @@ body {
     grid-template-columns: auto;
     grid-gap: 5px;
 }
-main h2{
+
+main h2 {
     text-align: center;
 }
 
@@ -233,7 +234,7 @@ img {
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+.picture_numbers {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
@@ -270,6 +271,7 @@ img {
 .demo:hover {
     opacity: 1;
 }
+
 /*about us media query*/
 @media screen and (max-width: 650px) {
     .column {
