@@ -1,0 +1,58 @@
+{
+    "temples":[
+        {
+            "name": "Provo Temple",            
+             "description": "The Provo Utah Temple was the sixth temple built in Utah and the first built in Utah County. Often dubbed one of the busiest temples in the Church, the Provo Utah Temple operates six ordinance rooms, allowing sessions to begin every 20 minutes. (Only three other temples have six ordinance rooms: the Ogden Utah Temple, Jordan River Utah Temple, and Washington D.C. Temple.) The Provo Utah Temple and Provo City Center Temple were the second pair of temples to be built in the same city, following the Jordan River Utah Temple (1981) and Oquirrh Mountain Utah Temple (2009) in South Jordan, Utah.",           
+            "Telephone": "(+1) 801-375-5775",            
+            "streetAddress": "2200 Temple Hill Drive Provo, Utah  84604-1766",
+            "cityState": "Provo, Utah",
+            "zip": " 84604-1766",
+            "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
+            
+            "imageSrc": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-utah-temple-autumn-1110601-wallpaper.jpg"
+        },
+        {
+            "name": "Provo Temple",            
+             "description": "The Provo Utah Temple was the sixth temple built in Utah and the first built in Utah County. Often dubbed one of the busiest temples in the Church, the Provo Utah Temple operates six ordinance rooms, allowing sessions to begin every 20 minutes. (Only three other temples have six ordinance rooms: the Ogden Utah Temple, Jordan River Utah Temple, and Washington D.C. Temple.) The Provo Utah Temple and Provo City Center Temple were the second pair of temples to be built in the same city, following the Jordan River Utah Temple (1981) and Oquirrh Mountain Utah Temple (2009) in South Jordan, Utah.",           
+            "Telephone": "(+1) 801-375-5775",            
+            "streetAddress": "2200 Temple Hill Drive Provo, Utah  84604-1766",
+            "cityState": "Provo, Utah",
+            "zip": " 84604-1766",
+            "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
+            
+            "imageSrc": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-utah-temple-autumn-1110601-wallpaper.jpg"
+        },
+        {  "name": "Provo Temple",            
+             "description": "The Provo Utah Temple was the sixth temple built in Utah and the first built in Utah County. Often dubbed one of the busiest temples in the Church, the Provo Utah Temple operates six ordinance rooms, allowing sessions to begin every 20 minutes. (Only three other temples have six ordinance rooms: the Ogden Utah Temple, Jordan River Utah Temple, and Washington D.C. Temple.) The Provo Utah Temple and Provo City Center Temple were the second pair of temples to be built in the same city, following the Jordan River Utah Temple (1981) and Oquirrh Mountain Utah Temple (2009) in South Jordan, Utah.",           
+            "Telephone": "(+1) 801-375-5775",            
+            "streetAddress": "2200 Temple Hill Drive Provo, Utah  84604-1766",
+            "cityState": "Provo, Utah",
+            "zip": " 84604-1766",
+            "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
+            
+            "imageSrc": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-utah-temple-autumn-1110601-wallpaper.jpg"
+        },
+        {   "name": "Provo Temple",            
+             "description": "The Provo Utah Temple was the sixth temple built in Utah and the first built in Utah County. Often dubbed one of the busiest temples in the Church, the Provo Utah Temple operates six ordinance rooms, allowing sessions to begin every 20 minutes. (Only three other temples have six ordinance rooms: the Ogden Utah Temple, Jordan River Utah Temple, and Washington D.C. Temple.) The Provo Utah Temple and Provo City Center Temple were the second pair of temples to be built in the same city, following the Jordan River Utah Temple (1981) and Oquirrh Mountain Utah Temple (2009) in South Jordan, Utah.",           
+            "Telephone": "(+1) 801-375-5775",            
+            "streetAddress": "2200 Temple Hill Drive Provo, Utah  84604-1766",
+            "cityState": "Provo, Utah",
+            "zip": " 84604-1766",
+            "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
+            
+            "imageSrc": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-utah-temple-autumn-1110601-wallpaper.jpg"
+        },
+        {
+          "name": "Provo Temple",            
+             "description": "The Provo Utah Temple was the sixth temple built in Utah and the first built in Utah County. Often dubbed one of the busiest temples in the Church, the Provo Utah Temple operates six ordinance rooms, allowing sessions to begin every 20 minutes. (Only three other temples have six ordinance rooms: the Ogden Utah Temple, Jordan River Utah Temple, and Washington D.C. Temple.) The Provo Utah Temple and Provo City Center Temple were the second pair of temples to be built in the same city, following the Jordan River Utah Temple (1981) and Oquirrh Mountain Utah Temple (2009) in South Jordan, Utah.",           
+            "Telephone": "(+1) 801-375-5775",            
+            "streetAddress": "2200 Temple Hill Drive Provo, Utah  84604-1766",
+            "cityState": "Provo, Utah",
+            "zip": " 84604-1766",
+            "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],          
+            
+            "imageSrc": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-utah-temple-autumn-1110601-wallpaper.jpg"
+        }
+    ]
+
+}
