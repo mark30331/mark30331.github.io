@@ -1,0 +1,50 @@
+"Items": [
+    {
+      date: '06 September 2022',
+      proximity: 390,
+      lux: 5,
+      timestamp: '10:29:31'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 974,
+      lux: 6,
+      timestamp: '10:29:34'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 54,
+      lux: 30,
+      timestamp: '10:29:37'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 449,
+      lux: 8,
+      timestamp: '10:29:40'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 103,
+      lux: 16,
+      timestamp: '10:29:43'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 47,
+      lux: 8,
+      timestamp: '10:29:46'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 88,
+      lux: 9,
+      timestamp: '10:29:49'
+    },
+    {
+      date: '06 September 2022',
+      proximity: 88,
+      proximity: 88,
+      lux: 6,
+      timestamp: '10:29:52'
+    }]
