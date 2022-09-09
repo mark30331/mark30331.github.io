@@ -1,4 +1,5 @@
-"Items": [
+{
+    "Items": [
     {
       date: '06 September 2022',
       'temperature': '80',
@@ -54,4 +55,6 @@
       'humidity': '66',
       'particulate_density': '2.32',
       timestamp: '10:29:52'
-    }]
+    }
+    ]
+}
