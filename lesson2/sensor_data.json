@@ -1,60 +1,46 @@
 {
-    'Items': [
+    "Items": [
     {
-      'date': '06 September 2022',
-      'temperature': '80',
-      'humidity': '60',
-      'particulate_density': '2.0',
-      'timestamp': '10:29:31'
+      "date": "06 September 2022",
+      "temperature": "80",
+      "humidity": "60",
+      "particulate_density": "2.0",
+      "timestam": "10:29:31"
     },
     {
-      'date': '06 September 2022',
-      'temperature': '88',
-      'humidity': '65',
-      'particulate_density': '2.75',
-      'timestamp': '10:29:34'
+      "date": "06 September 2022",
+      "temperature": "88",
+      "humidity": "65",
+      "particulate_density": "2.75",
+      "timestamp": "10:29:34"
     },
     {
-      'date': '06 September 2022',
-      'temperature': '70',
-      'humidity': '70',
-      'particulate_density': '3.0',
-      'timestamp': '10:29:37'
+      "date": "06 September 2022",
+      "temperature": "70",
+      "humidity": "70",
+      "particulate_density": "3.0",
+      "timestamp": "10:29:37"
     },
     {
-      date: '06 September 2022',
-      'temperature': '88',
-      'humidity': '77',
-      'particulate_density': '2.45',
-      'timestamp': '10:29:40'
+      "date": "06 September 2022",
+      "temperature": "88",
+      "humidity": "77",
+      "particulate_density": "2.45",
+      "timestamp": "10:29:40"
     },
     {
-      'date': '06 September 2022',
-      'temperature': '90',
-      'humidity': '80',
-      'particulate_density': '2.35',
-      'timestamp': '10:29:43'
+      "date": "06 September 2022",
+      "temperature": "90",
+      "humidity": "80",
+      "particulate_density": "2.35",
+      "timestamp": "10:29:43"
     },
     {
-      'date': '06 September 2022',
-      'temperature': '77',
-      'humidity': '84',
-      'particulate_density': '2.7',
-      'timestamp': '10:29:46'
-    },
-    {
-      'date': '06 September 2022',
-      'temperature': '86',
-      'humidity': '72',
-      'particulate_density': '2.89',
-      'timestamp': '10:29:49'
-    },
-    {
-      'date': '06 September 2022',
-      'temperature': '91',
-      'humidity': '66',
-      'particulate_density': '2.32',
-      'timestamp': '10:29:52'
-    }
-    ]
+      "date": "06 September 2022",
+      "temperature": "77",
+      "humidity": "84",
+      "particulate_density": "2.7",
+      "timestamp": "10:29:46"
+    }    
+  ]
 }
